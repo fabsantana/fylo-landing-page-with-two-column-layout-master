@@ -54,3 +54,59 @@
   body {
       font-family: 'Open Sans', sans-serif;
   }
+
+  header {
+      margin: 0 auto;
+      max-width: 351px;
+      margin-bottom: 90px;
+  }
+
+  header .container {
+      padding: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  header .fylo-logo {
+      max-width: 80px;
+      width: 100%;
+  }
+  header nav .nav-list{
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 1.5em;
+  }
+  header nav .nav-list .nav-list-item a{
+      text-decoration: none;
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: .75em;
+  }
+
+  main > *{
+      margin: 0 auto;
+  }
+
+  .hero {
+      max-width: 348px;
+  }
+
+  .hero .container {
+      width: 100%;
+  }
+
+  .hero-img {
+      max-width: 340px;
+      width: 100%;
+  }
+  .lockup {
+      text-align: center;
+  }
+
+  .hero input,
+  .hero button {
+      max-width: 304px;
+      width: 100%;
+      margin: 0 auto;
+  }
