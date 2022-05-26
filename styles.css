@@ -55,6 +55,9 @@
       font-family: 'Open Sans', sans-serif;
   }
 
+
+  /* Header Section CSS */
+
   header {
       margin: 0 auto;
       max-width: 351px;
@@ -84,29 +87,233 @@
       font-size: .75em;
   }
 
+  /* Hero Section CSS */
+
   main > *{
       margin: 0 auto;
   }
 
   .hero {
       max-width: 348px;
+      margin-bottom: 143px;
   }
-
+  
+  .lockup {
+      text-align: center;
+  }
   .hero .container {
       width: 100%;
+  }
+  .hero .container > *{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
 
   .hero-img {
       max-width: 340px;
       width: 100%;
   }
-  .lockup {
-      text-align: center;
+  .hero .lockup > * {
+      margin-bottom: 25px;
+  }
+  .hero .lockup {
+      margin-top: 40px;
   }
 
-  .hero input,
-  .hero button {
-      max-width: 304px;
+  .hero-email-form  label {
+      display: none;
+  }
+  .hero-email-form  input,
+  .hero-email-form  button {
       width: 100%;
-      margin: 0 auto;
+      max-width: 304px;
+      min-height: 40px;
+  }
+
+  .hero-email-form  input {
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 14px;
+      border: 1px solid black;
+      margin-bottom: 1rem;
+  }
+  .hero-email-form  ::placeholder {
+      color: #C2C2C2;
+      font-size: 12px;
+      font-weight: 400;
+      font-family: 'Raleway', sans-serif;
+      margin-left: 20px;
+  }
+
+  .hero-email-form  button {
+      background-color: #2F65F8;
+      color: #ffffff;
+      border: none;
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+  }
+
+  /* Productive Section CSS */
+
+  .productive-section {
+    background-color: #F8F8FE;
+    position: relative;
+  }
+
+  .background-curve {
+    position: absolute;
+    bottom: 100%;
+  }
+
+  .productive-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .productive-section .illustration-2 {
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 90px;
+  }
+
+  .productive-section .lockup {
+    margin-bottom: 40px;
+  }
+
+  .productive-section h2 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 25px;
+  }
+
+  .productive-section p {
+    color: #615F7E;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
+  .productive-section button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    color: #3DA08F;
+    border-top: none;
+    border-inline: none;
+    border-bottom: 1px solid #3DA08F;
+    background-color: transparent;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+  }
+
+  .productive-section .card {
+    background-color: white;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 38px 12px 19px 25px;
+    max-width: 280px;
+  }
+
+  .productive-section .caption-img{
+    max-width: 25px;
+    width: 100%;
+    border: none;
+    border-radius: 50%;
+  }
+
+  .productive-section .card p {
+    color: #07043B;
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .productive-section .card figcaption {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  .productive-section .card figcaption div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productive-section .card figcaption span  {
+    color: #07043B;
+    font-size: 9px;
+    line-height: 12px;
+    font-weight: 700;
+  }
+
+  .productive-section .card figcaption cite  {
+    color: #07043B;
+    font-size: 6px;
+    line-height: 11px;
+  }
+
+  .productive-section .quote-wrapper {
+    margin-bottom: 80px;
+  }
+  
+  .card-lockup {
+    position: relative;
+  }
+
+  .quote {
+    position: absolute;
+    bottom: 105%;
+  }
+
+  /* Early Access Section CSS */
+
+  .early-access {
+    background-color: #575988;
+    color: white;
+  }
+
+  .early-access label {
+    display: none;
+  }
+  .early-access input,
+  .early-access button {
+    width: 100%;
+    max-width: 240px;
+    min-height: 40px;
+  }
+
+  .early-access input {
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    border: none;
+  }
+  .early-access ::placeholder {
+    color: #C2C2C2;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20px;
+  }
+
+  .early-access button {
+    background-color: #2F65F8;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
   }
